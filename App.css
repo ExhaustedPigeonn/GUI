@@ -1,0 +1,61 @@
+body {
+  background-color: #f7f9fc; /* Soft background color */
+  font-family: 'Arial', sans-serif; /* Clean font */
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 600px; /* Limit the width of the main container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for the container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  background-color: white; /* White background for the main container */
+}
+
+h1 {
+  color: #333; /* Darker color for headings */
+  text-align: center; /* Center-align headings */
+  margin-bottom: 20px; /* Spacing below the heading */
+}
+
+button {
+  display: block; /* Make buttons block elements */
+  width: 100%; /* Full width buttons */
+  padding: 10px; /* Inner spacing */
+  margin: 10px 0; /* Spacing above and below buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  background-color: #007bff; /* Primary button color */
+  color: white; /* Text color for buttons */
+  font-size: 16px; /* Button text size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+img {
+  max-width: 100%; /* Responsive images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+input[type="file"] {
+  margin: 10px 0; /* Spacing for file input */
+  padding: 5px; /* Inner spacing for file input */
+  border: 1px solid #ccc; /* Light border for file input */
+  border-radius: 5px; /* Rounded corners for file input */
+  width: 100%; /* Full width file input */
+}
+
+.container {
+  margin-top: 20px; /* Space above the container */
+  padding: 15px; /* Inner spacing for the container */
+  border: 1px solid #eaeaea; /* Light border for the container */
+  border-radius: 8px; /* Rounded corners for the container */
+  background-color: #f9f9f9; /* Light background for the container */
+}
